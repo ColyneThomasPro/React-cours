@@ -1,7 +1,7 @@
 // cibler le bouton en html
 const button = document.querySelector("button");
 
- // je créer une fonction générique pour créer un élément "createElementNode" à laquelle j'attribut différe,ts paramètres : ici son type, et en optionnel son nom de classe, du texte et une source d'image
+ // je créer une fonction générique pour créer un élément "createElementNode" à laquelle j'attribut différents paramètres : ici son type, et en optionnel son nom de classe, du texte et une source d'image
 const  createElementNode = (tagType, className = "", text = "", srcImg = "") => {
     const nodeElement = document.createElement(tagType)
     nodeElement.setAttribute("class", className)
